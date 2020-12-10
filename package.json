@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-mate",
+  "name": "gatsby-mate-portfolio",
   "version": "2.5.3",
-  "description": "Gatsby v2 starter to create a top notch portfolio!",
+  "description": "Portfolio made with gatsby-starter-mate",
   "main": "index.js",
   "scripts": {
     "get-about": "ts-node --files src/scripts/get-about",

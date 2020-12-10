@@ -5,7 +5,7 @@ import {
   IconDefinition,
 } from '@fortawesome/fontawesome-svg-core';
 import {
-  faMedium,
+  faLinkedin,
   faTwitter,
   faGithub,
   prefix as brandPrefix,
@@ -18,7 +18,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 export const loadIcons = () =>
-  library.add(faMedium, faTwitter, faGithub, faGlobe, faEnvelope, faCoffee);
+  library.add(faLinkedin, faTwitter, faGithub, faGlobe, faEnvelope, faCoffee);
 
 export const getIconDefinition = (
   iconName: IconName,
