@@ -35,7 +35,7 @@ const Background = () => (
 
     <Triangle
       color="background"
-      height={['50vh', '20vh']}
+      height={['50vh', '16vh']}
       width={['50vw', '50vw']}
       position="top-right"
     />

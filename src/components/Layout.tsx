@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     box-sizing: border-box; 
     margin: 0;
-    font-family: Cabin, 'Open Sans', sans-serif;
+    font-family: Source Sans Pro, 'Open Sans', sans-serif;
     overflow-x: hidden;
     width: 100vw;
     background: ${(props) => props.theme.colors.background};

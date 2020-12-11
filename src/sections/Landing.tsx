@@ -19,7 +19,7 @@ const LandingPage = () => {
       <Heading
         textAlign="center"
         as="h1"
-        color="primary"
+        color="secondary"
         fontSize={[6, 7]}
         mb={[3, 4, 5]}
       >
@@ -28,7 +28,7 @@ const LandingPage = () => {
 
       <Heading
         as="h2"
-        color="primary"
+        color="secondary"
         fontSize={[5, 6]}
         mb={[3, 5]}
         textAlign="center"
@@ -62,7 +62,7 @@ const Background = () => (
   <>
     <Triangle
       color="muted"
-      height={['35vh', '80vh']}
+      height={['35vh', '70vh']}
       width={['95vw', '60vw']}
     />
 
@@ -73,7 +73,7 @@ const Background = () => (
     />
 
     <Triangle
-      color="primary"
+      color="secondary"
       height={['25vh', '35vh']}
       width={['75vw', '60vw']}
       position="top-right"
@@ -81,7 +81,7 @@ const Background = () => (
 
     <Triangle
       color="muted"
-      height={['20vh', '20vh']}
+      height={['20vh', '25vh']}
       width={['100vw', '100vw']}
       position="bottom-right"
     />

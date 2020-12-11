@@ -11,14 +11,14 @@ const BASE_THEME = preset as Theme;
 const theme: Theme = {
   ...BASE_THEME,
   colors: {
-    background: '#FFFFFF',
-    muted: '#f0e6f6',
+    background: '#f2f2f2',
+    muted: '#ffd369',
     gray: '#ddd',
     text: '#333333',
 
-    primary: '#7c37ad',
-    secondary: '#ff4081',
-    highlight: '#ff79b0',
+    primary: '#222831',
+    secondary: '#393e46',
+    highlight: '#f0e6f6',
   },
   queries: {
     xs: '@media screen and (max-width: 40em)',
@@ -35,7 +35,7 @@ const theme: Theme = {
     },
   },
   fonts: {
-    body: 'Cabin, Open Sans, sans-serif',
+    body: 'Montserrat, Open Sans, sans-serif',
     heading: 'inherit',
     monospace: 'monospace',
   },
