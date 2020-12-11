@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 import SocialLink from './SocialLink';
 import Link from './Link';
 import { useSiteQuery } from '../queries/useSiteQuery';
-import { CONTENTFUL_URL, GATSBY_URL, NETLIFY_URL } from '../utils/constants';
+import { CONTENTFUL_URL, GATSBY_URL, GITHUB_PAGES_URL } from '../utils/constants';
 
 const Footer = () => {
   const { name, socialLinks } = useSiteQuery();
@@ -20,7 +20,7 @@ const Footer = () => {
             <span>, </span>
             <Link href={CONTENTFUL_URL}>Contentful</Link>
             <span> and </span>
-            <Link href={NETLIFY_URL}>Netlify</Link>{' '}
+            <Link href={GITHUB_PAGES_URL}>Github Pages</Link>{' '}
             <span role="img" aria-label="heart">
               ❤️
             </span>
